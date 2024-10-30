@@ -5062,7 +5062,8 @@ export function initAbilities() {
       .attr(TypeImmunityAddBattlerTagAbAttr, Type.FIRE, BattlerTagType.FIRE_BOOST, 1)
       .ignorable(),
     new Ability(Abilities.SHIELD_DUST, 3)
-      .attr(IgnoreMoveEffectsAbAttr),
+      .attr(IgnoreMoveEffectsAbAttr)
+      .ignorable(),
     new Ability(Abilities.OWN_TEMPO, 3)
       .attr(BattlerTagImmunityAbAttr, BattlerTagType.CONFUSED)
       .attr(IntimidateImmunityAbAttr)
